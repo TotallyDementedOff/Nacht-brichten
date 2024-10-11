@@ -1,0 +1,8 @@
+body{
+	background-image: linear-gradient(to right, peru,rgb(70, 42, 15));
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img{
+    size:500px
+}
