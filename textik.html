@@ -4,51 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Můj Jednoduchý Web</title>
+    <title>Profesionální a Moderní Web</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">Můj Web</div>
-            <ul>
-                <li><a href="#">Domů</a></li>
-                <li><a href="#">O nás</a></li>
-                <li><a href="#">Služby</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">Profesionální Web</div>
+                <ul class="nav-links">
+                    <li><a href="#">Domů</a></li>
+                    <li><a href="#">O nás</a></li>
+                    <li><a href="#">Služby</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <h1>Vítejte na mém webu</h1>
-            <p>Toto je jednoduchý, moderní a responzivní web.</p>
-            <a href="#" class="cta-btn">Zjistit více</a>
+            <div class="container">
+                <h1>Elegantní a Moderní Webový Design</h1>
+                <p>Pomůžeme vám vytvořit inovativní webovou prezentaci s důrazem na detaily a skvělý uživatelský zážitek.</p>
+                <a href="#" class="cta-btn">Zjistit více</a>
+                <a href="stranecka.html" class="work-btn">Ukázka naší práce</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2>O nás</h2>
+                <p>Jsme tým zkušených profesionálů, kteří se zaměřují na tvorbu moderních a funkčních webových řešení. Naše práce je založena na kombinaci kreativního designu a nejnovějších technologií.</p>
+            </div>
         </section>
 
         <section class="content">
-            <h2>Naše služby</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Web Design</h3>
-                    <p>Moderní a přizpůsobitelný design pro všechny potřeby.</p>
+            <div class="container">
+                <h2>Naše služby</h2>
+                <div class="services">
+                    <div class="service">
+                        <i class="icon fa fa-laptop-code"></i>
+                        <h3>Web Design</h3>
+                        <p>Elegantní a funkční návrhy přizpůsobené vašim potřebám.</p>
+                    </div>
+                    <div class="service">
+                        <i class="icon fa fa-chart-line"></i>
+                        <h3>SEO Optimalizace</h3>
+                        <p>Vylepšíme vaši online viditelnost a zvýšíme návštěvnost.</p>
+                    </div>
+                    <div class="service">
+                        <i class="icon fa fa-bullhorn"></i>
+                        <h3>Marketing</h3>
+                        <p>Pomáháme vám dostat se do popředí s efektivními strategiemi.</p>
+                    </div>
                 </div>
-                <div class="service">
-                    <h3>SEO Optimalizace</h3>
-                    <p>Zlepšete svou viditelnost ve vyhledávačích.</p>
-                    <h1>POMOC</h1>
-                </div>
-                <div class="service">
-                    <h3>Podpora</h3>
-                    <p>Nabízíme nonstop technickou podporu.</p>
-                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Připravení začít?</h2>
+                <p>Kontaktujte nás ještě dnes a pojďme společně budovat budoucnost vaší značky.</p>
+                <a href="#" class="cta-btn">Kontaktujte nás</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Můj Web. Všechna práva vyhrazena.</p>
+        <div class="container">
+            <p>&copy; 2024 Profesionální Web. Všechna práva vyhrazena.</p>
+        </div>
     </footer>
+
+    <!-- Font Awesome pro ikony -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
